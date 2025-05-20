@@ -5,6 +5,7 @@ __pycache__/
 *.pyd
 *.pyc
 *.log
+**/__pycache__/
 
 # Virtual environments
 venv/
@@ -70,3 +71,15 @@ staticfiles/
 # Docker (if using)
 *.tar
 docker-compose.override.yml
+
+# Django static/media files
+**/productionfiles/
+**/staticfiles/
+**/media/
+*.sqlite3
+db.sqlite3
+
+# Migrations (optional: keep if you want them versioned)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.pyo 
